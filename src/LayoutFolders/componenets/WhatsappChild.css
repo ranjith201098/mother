@@ -1,0 +1,68 @@
+.WhatsappChild_parent{
+    margin-top: 30px;
+    width: 174.3vh;
+    
+    border: 1px solid rgb(119, 71, 71) 0;
+    display: flex;
+   
+    justify-content: center;
+}
+.WhatsappChild_child{
+  width: 400px;
+  height: 500px;
+  border: 1px solid red;
+}
+.WhatsappChild_child_header_one{
+    display: flex;
+   gap: 200px;
+   background-color: rgb(190, 188, 187);
+   padding: 10px;
+  
+}
+.WhatsappChild_child_name{
+    font-size: 10px;
+}
+.WhatsappChild_child_header_one_1{
+    display: flex;
+    align-items: center;
+}
+.WhatsappChild_child_header_one_2{
+    display: flex;
+   gap: 20px;
+   align-items: center;
+}
+.WhatsappChild_child_body{
+  position: relative;
+    height: 390px;
+   text-align: end;
+}
+.WhatsappChild_child_body_pre{
+    position: absolute;
+    bottom: 170px;
+}
+.WhatsappChild_child_body_child{
+position: absolute;
+right: 5px;
+bottom: 5px;
+z-index: -1;
+padding: 10px;
+
+}
+.WhatsappChild_child_body_child_one{
+    background-color: rgb(204, 207, 153);
+    padding: 5px;
+    border-radius: 5px;
+   ;
+   
+}
+.WhatsappChild_child_footer{
+    display: flex;
+    align-items: center;
+   height: fit-content;
+    background-color: rgb(182, 117, 117);
+    padding-top: 13px;
+    padding-bottom: 5px;
+    color: rgb(36, 32, 32);
+    
+
+}

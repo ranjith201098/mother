@@ -1,0 +1,180 @@
+
+._header_body{
+    color: white;
+}
+
+.card_one{
+    color: rgb(46, 233, 139);
+    background-color: white;
+    width: 600px;
+}
+.left_side{
+    background-color: black;
+    height: 450px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right_side{
+    background-color: rgb(141, 187, 226);
+    height: 450px;
+    width: 400px;
+    color: black;
+    text-align: center;
+    margin-left: -60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+   
+  
+   
+}
+textarea{
+    width: 190px;
+    border-radius: 4px;
+}
+.contact_form{
+    font-size: 40px;
+}
+.left_child{
+    margin-top:80px;
+}
+.container_form{
+    position: fixed;
+   top: 50px;
+   left: 270px;
+    text-transform: capitalize;
+   
+    
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    outline: none;
+}
+.contact_button{
+    text-transform: capitalize;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+input{
+    border-radius: 4px;
+    outline: black;
+}
+.tooltip_name{
+    text-align: center;
+   position: fixed;
+   left: 80%;
+   top: 22%;
+   color: rgb(255, 255, 255);
+   background-color: rgb(251, 61, 61);
+   width: 80px;
+   border-radius: 5px;
+   font-size: 14px;
+   
+}
+.tooltip_name_symble{
+    text-align: center;
+    position: fixed;
+    left: 76%;
+    top: 23%;
+    color: rgb(255, 0, 0);
+    width: 80px;
+    border-radius: 5px;
+}
+.tooltip_email{
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    top: 30%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 61, 61);    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tooltip_email_symble{
+    text-align: center;
+    position: fixed;
+    left: 76%;
+    top: 31%;
+    color: rgb(255, 0, 0);
+    width: 80px;
+    border-radius: 5px;
+}
+.tooltip_company{
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    top: 38%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 61, 61);    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tooltip_company_symble{
+    text-align: center;
+    position: fixed;
+    left: 76%;
+    top: 39%;
+    color: rgb(255, 0, 0);
+    width: 80px;
+    border-radius: 5px;
+}
+.tooltip_phone{
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    top: 47%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 61, 61);      width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tooltip_phone_symble{
+    text-align: center;
+    position: fixed;
+    left: 76%;
+    top: 47%;
+    color: rgb(255, 0, 0);
+    width: 80px;
+    border-radius: 5px;
+}
+.tooltip_message{
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    top: 55%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 61, 61);      width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tooltip_message_symble{
+    text-align: center;
+    position: fixed;
+    left: 76%;
+    top: 55%;
+    color: rgb(255, 0, 0);
+    width: 80px;
+    border-radius: 5px;
+}
+.home_icon{
+    position: absolute;
+    left: 90%;
+    color: black;
+    top: 1%;
+}
+.home_icon:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    
+}

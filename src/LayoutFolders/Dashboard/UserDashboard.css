@@ -1,0 +1,61 @@
+
+.paRent{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-image: linear-gradient( rgb(107, 155, 182), rgb(4, 68, 128));
+    width: 250px;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+   color:rgb(246, 252, 255);
+   position: fixed;
+   overflow: scroll;
+   
+ 
+}
+ .paRent div:hover{
+    cursor: pointer;
+    color: rgb(255, 208, 0);
+
+} 
+.Outlet{
+    position:absolute;
+    left: 17.5%;
+ 
+
+}
+/* @media only screen and (max-width: 600px) {
+    .paRent {
+      width: 80px;
+      font-size: 10px;
+      height:550vh;
+    }
+    .WELCOME{
+      display: none;
+    }
+  } */
+.WELCOME{
+  font-size: 35PX;
+  animation: mymove 5s infinite;
+ color: rgb(255, 0, 242);
+}
+
+@keyframes mymove {
+  50% {transform: rotatey(90deg);}
+}
+
+.topnave button{
+  background-color: rgb(180, 11, 17);
+  color: white;
+  border-radius: 5px;
+}
+.home:active{
+  color: black;
+}
+.menu_icon{
+  display: none;
+  position: fixed;
+}
+
+

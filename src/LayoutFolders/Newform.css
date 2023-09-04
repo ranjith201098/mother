@@ -1,0 +1,27 @@
+.spinner{
+    margin-left:450px;
+    margin-top: 200px;
+}
+
+.ring{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 14px solid #000000;
+    border-bottom: 14px solid #000000;
+    border-right: 14px solid #f30505;
+    border-left: 14px solid #00b7ff;
+    width: 150px;
+    height: 150px;
+    /* Safari */
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(360deg); }
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .spinner{
+        margin-left:160px;
+        margin-top: 200px;
+    }
+ }

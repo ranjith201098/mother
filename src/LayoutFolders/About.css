@@ -1,0 +1,95 @@
+.tableParent{
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: 'REM', sans-serif;
+     text-transform: uppercase;
+     text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.Edit{
+    background-color: rgb(211, 223, 111);
+        color: rgb(30, 0, 253);
+    border-radius: 8px;
+    width: 50px;
+}
+.Delete{
+    background-color:rgb(211, 223, 111);
+            color: rgb(250, 2, 2);
+    border-radius: 8px;
+    width: 50px;
+   
+}
+.view{
+    background-color:rgb(211, 223, 111);
+            color: rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 50px;
+    margin-left: -3px;
+}
+.Edit:hover{
+    background-color: rgb(23, 31, 255);
+    color: white;
+}
+.view:hover{
+    background-color: rgb(195, 238, 0);
+    color: #ff10ef;
+}
+.Delete:hover{
+    background-color: rgb(255, 23, 23);
+    color: white;
+}
+.row_header{
+
+    font-size: 20px;
+}
+.action{
+    opacity: 0;
+}
+._view_model{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+   background-color:  rgb(5, 39, 59);
+}
+._view_header{
+    color: antiquewhite;
+    background-color:  rgb(5, 39, 59);
+}
+
+
+.icon_animi{
+    color: rgb(106, 0, 255);
+    animation: mymove_icon 10s infinite;
+
+}
+@keyframes mymove_icon {
+    100% {transform: rotatex(360deg);}
+  }
+
+  .add_button{
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    padding: auto;
+    width: 100px;
+   
+    background-color: #07ffcd;
+  }
+.about_delete_model_page{
+    margin-left: 130px;
+   
+}
+.about_delete_model_page_header {
+    background-color: #00e4e4;
+    color:rgb(0, 0, 0);
+}
+@media only screen and (max-width: 600px) {
+    .tableParent{
+       width: 100px;
+    }
+    ._view_model{
+        width: 100px;
+    }
+    }

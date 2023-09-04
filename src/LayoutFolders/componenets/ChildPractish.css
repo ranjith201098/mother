@@ -1,0 +1,88 @@
+.childpractish_child1{
+    margin-left: 140px;
+     
+   
+}
+.childpractish_child_checkbox{
+    margin-left: 140px;
+     
+}
+.childpractish_child2{
+    margin-left: 140px;
+     
+
+}
+.childpractish_child3{
+    margin-left: 140px;
+     
+}
+.childpractish_parent{
+    text-transform: capitalize;
+   /*  margin-top: 192px; */
+    font-size: 20px;
+}
+.childpractish_parent input{
+    border-radius: 6px;
+    height: 25px;
+}
+.childpractish_child4{
+    margin-left: 140px;
+     
+}
+.childpractish_button{
+ margin-left: 495px;
+  margin-top: 24px;
+  
+}
+.childpractish_button button{
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .childpractish_child1{
+         margin-left: 0%;
+         text-align: center;
+         
+        
+    }
+    .childpractish_input_two4_dob{
+        width: 320px;
+    }
+    .childpractish_parent{
+        margin-top: 0%;
+    }
+    .childpractish_child2{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .childpractish_child_checkbox{
+        margin-left: 15%;
+    }
+    .childpractish_child1 input {
+        width: 320px;
+        border-radius: 10px;
+    }
+    .childpractish_child2 input{
+        width: 320px;
+        border-radius: 10px;
+    }
+    .childpractish_child3 input{
+        width: 320px;
+        border-radius: 10px;
+    }
+    .childpractish_child4 input{
+        width: 320px;
+        border-radius: 10px;
+    }
+    .childpractish_child3{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .childpractish_child4{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .childpractish_button {
+        margin-left: 0%;
+        text-align: center;
+    }
+    }

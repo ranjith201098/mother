@@ -1,0 +1,46 @@
+.user_model_parent{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    background-color:#f8d950;
+    color:rgb(2, 0, 112) ;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+   margin-left: 200px;
+  text-align: start;
+}
+.user_model_null{
+   margin-left: 400px;
+   margin-top: 150px;
+   font-size: 30px;
+}
+.user_registration_details{
+   margin-left: 300px;
+   font-size: 40px;
+   text-transform: capitalize;
+}
+.user_model_parent:hover{
+    background-color: chartreuse;
+    color: blue;
+   
+
+}
+ .regis_header_user_model{
+    font-size: 50px;
+    color: rgb(206, 43, 255);
+    
+ }
+ 
+ @media only screen and (max-width: 600px) {
+ .user_model_parent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 0;
+    width: 300px;
+ }
+ .user_registration_details{
+   display: none;
+ }
+ }
